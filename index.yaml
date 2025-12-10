@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  hello-openshift:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-12-10T15:54:49.015935-06:00"
+    description: A simple OpenShift demo app
+    digest: 5612417100122f3c8ec2e78e9321c8637c08f76ff29d367e6f14419ff9fdcd06
+    name: hello-openshift
+    type: application
+    urls:
+    - https://smarty1234.github.io/openshift-deploy-example/hello-openshift-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-12-10T15:54:49.01568-06:00"
