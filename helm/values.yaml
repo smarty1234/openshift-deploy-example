@@ -1,0 +1,12 @@
+replicaCount: 2
+image:
+  repository: nginx
+  tag: 1.27-alpine
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 8080
+route:
+  enabled: true
+  tls:
+    termination: edge
